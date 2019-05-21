@@ -1,0 +1,30 @@
+{
+    "name": "morvren-achronos/backup",
+    "type": "project",
+    "time" : "2010-05-22",
+    "description": "Command-line backup tool supporting PHP 5 >= 5.0, PHP 7",
+    "homepage": "https://github.com/morvren-achronos/php-backup",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ky Patterson",
+            "email": "ky@morvren-achronos.com"
+        }
+    ],
+    "require": {
+        "php": "^5.0 || ^7.0",
+        "morvren-achronos/useful": "dev-wip-0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MorvrenAchronos\\Backup\\": "src/MorvrenAchronos/Backup"
+        }
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/morvren-achronos/php-useful"
+        }
+    ]
+}
